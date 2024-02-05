@@ -1,0 +1,14 @@
+body{
+    margin:0;
+}
+main{
+    background-color: gray;
+}
+header{
+    justify-content: center;
+    display: grid;
+}
+.roundedimage{
+    border-radius: 50%;
+    border: 5px solid #555;
+}
