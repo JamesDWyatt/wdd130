@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Orienta&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 body{
     background-color: #e29578;
+    font-size: 22px;
+    font-family: Quattrocento Sans;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
 }
 header{
     background-color: #A7CCED;
@@ -11,8 +19,12 @@ header{
 .logo{
     width: 80px;
 }
+#logo_ling{
+    padding-top: 5px;
+}
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img{
     width: 100%;
@@ -20,6 +32,7 @@ header{
 nav a{
     color: blue;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover{
     color: blueviolet;
@@ -30,6 +43,9 @@ nav{
 }
 .home-title{
     color: black;
+    font-family: Orienta;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: black;
@@ -38,6 +54,10 @@ h4{
     color: blue;
     text-decoration: none;
     background-color: #A7CCED;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     color: blueviolet;
@@ -55,6 +75,9 @@ h4{
 main{
     text-align: center;
 }
+main section img{
+    box-sizing: border-box;
+}
 section{
     text-align: center;
 }
@@ -64,17 +87,25 @@ section{
 }
 .msg{
     background-color: #304D6D;
+    padding: 35px;
 }
 .msg h2{
     color: black;
+    font-family: Orienta;
 }
 .msg p{
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .join{
     color: blue;
     text-decoration: none;
     background-color: #A7CCED;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join:hover{
     color: blueviolet;
@@ -82,6 +113,9 @@ section{
 }
 footer{
     background-color: #304D6D;
+    padding: 25px 50px;
+    padding-top: 15px;
+    margin-top: 200px;
 }
 footer p{
     color: black;
@@ -94,4 +128,19 @@ footer a{
 footer a:hover{
     color: blueviolet;
     text-decoration: underline;
+}
+.social img{
+    padding-top: 15px;
+}
+.card-img{
+    border: black;
+}
+.rivers-card{
+    margin: 200px 0;
+}
+.camping-card{
+    margin: 200px 0;
+}
+.rapids-card{
+    margin: 200px 0;
 }
